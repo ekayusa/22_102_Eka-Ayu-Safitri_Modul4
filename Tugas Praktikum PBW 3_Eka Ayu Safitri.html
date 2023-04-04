@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="Stylesheet Tugas 3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+<script> alert ("Selamat Datang")</script>
+<div class="tombol">
+    ⇑
+</div>
+<header>
+    <div class="header-logo">
+        <p>👩🏻‍🎨</p>
+    </div>
+    <div class="logo"> ≡ </div>
+    <div class="y">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="header-list">
+        <ul>
+            <li><a href="#kami" class="active">Tentang Kami</a></li>
+            <li><a href="#kelas">Kelas Yang Dapat Diambil</a></li>
+            <li><a href="#kontak">Hubungi Kami Disini</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<div class="banner">
+    <div class="container" id="kami">
+        <h1>Dunia Seni</h1>
+    </div>
+    <div>
+        <a href="#" class="btn email"> <i class="bi bi-envelope-at"></i> Daftar dengan Email</a>
+        <p>Atau</p>
+        <a href="#" class="btn facebook"> <i class="bi bi-facebook"></i> Daftar dengan Facebook</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content" id="kelas">
+        <h3 class="judul-content">Kelas Yang Dapat Diambil</h3>
+        <div class="kelas">
+            <img src="5.PNG" height="150px" widt="150px">
+            <p>Menggambar</p>
+        </div>
+        <div class="kelas">
+            <img src="7.PNG" height="150px" widt="150">
+            <p>Melukis</p>
+        </div>
+        <div class="kelas">
+            <img src="2.JPG" height="150px" widt="150">
+            <p>Memahat</p>
+        </div>
+        <div class="kelas">
+            <img src="1.JPG" height="150px" widt="150">
+            <p>Bermusik</p>
+        </div>
+    </div>
+    <div class="contact" id="kontak">
+        <h3 class="judul-content">Hubungi Kami Disini</h3>
+        <div class="form">
+            <form>
+                <table>
+                    <tr>
+                        <td>Email: </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Pesan: </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Nama: </td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+                <button type="submit" value="Kirim">Kirim</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="tombol" onclick="tombolup()">
+    ⇑
+</div>
+
+<footer>
+    <div class="footer-logo">
+      <p>👩🏻‍🎨</p>
+    </div>
+    
+    <div class="footer-list">
+      <ul>
+        <li>Syarat dan Ketentuan</li>
+        <li>Kebijakan Privasi</li>
+        <li>Service Level Agreement </li>
+      </ul>
+    </div>
+  </footer>
+
+<script>
+    function tombolup() {
+        window.scrollTo({
+            top: 0,behavior: "smooth"
+        })
+    }
+</script>
+</body>
+</html>
